@@ -1,0 +1,33 @@
+.Imagem{
+    width: 80px!important;
+    height: 64px!important;
+}
+
+
+@media screen and (min-width: 1024px) {
+    
+.Imagem{
+    width: 160px!important;
+    height: 160px!important;
+    border-bottom: 10px solid rgb(109, 0, 0);
+    border-right: 10px solid rgb(231, 2, 2);
+}
+
+}
+.div-todasimagens{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+    margin-top: 25px;
+    position: inherit;
+
+}
+.titulo{
+    font-size: 10px;
+    color: rgb(255, 251, 43);
+    margin-bottom: 7px;
+    text-align: center;
+}
+.gridimg{
+    background-color: rgb(43, 42, 42);
+}
